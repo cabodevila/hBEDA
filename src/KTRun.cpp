@@ -49,7 +49,7 @@ void KTRun::outputParas(ostream& out){
 }
 
 void KTRun::setDefaultParas(){
-  _version = "V6.3";_dir = ""; _numThreads = 32;
+  _version = "V7.0";_dir = ""; _numThreads = 32;
   _Qs = 1.0; _aS=0.1; _nf = 3; _BasymQ = false;
   _fzero = 0.1; _F0 = 0.0; _Fb0 = 0.0; _n=200; _nmin=20; _nx = 400;
   _t0 = 0.0; _dt = 1.0e-5; _tMax=1000.0;	//setup time variables
@@ -144,7 +144,7 @@ void KTRun::initialize(string name){
   initialize_kernels();
   
   _kt = new KinTran(_fs, _kern, _nKerns,  _dt, _aS);
-  
+
   cout << "# KTRun: all objects are initialized." << endl;
 
 }
