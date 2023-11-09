@@ -1,9 +1,6 @@
 # hBEDA
 Numerical solution to the Boltzmann Equation in Diffusion Approximation (BEDA) for spatially homogeneous systems
 
-# hBEDA
-Numerical solution to the Boltzmann Equation in Diffusion Approximation (BEDA) for spatially homogeneous systems
-
 Numerical solution of the BEDA for an spatially homogeneous system of quarks and gluons. Follow the instructions to run:
 
 1. Compile
